@@ -1,0 +1,37 @@
+{
+  "name": "voting-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaraBroad/Voting-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaraBroad/Voting-App/issues"
+  },
+  "homepage": "https://github.com/SaraBroad/Voting-App#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.3",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+<<<<<<< HEAD
+    "sequelize": "^4.37.8"
+=======
+    "sequelize": "^4.37.7",
+    "twilio": "^3.17.0"
+>>>>>>> 75da7f079fbcaa4f60e5ed94a8284c8d43142ff9
+  }
+}
